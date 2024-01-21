@@ -11,7 +11,7 @@ npm install express clipboardy
 
 ### 2. Run server
 ```bash
-node server.js
+node server.mjs
 ```
 
 ### 3. Send a request
@@ -23,3 +23,11 @@ Example POST request using `curl`:
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"data": "Hello, server!"}' http://localhost:6464
 ```
+
+## Example usage with Shortcuts
+
+You can use the [Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334) app on iOS to send a request to the server.
+
+[Example shortcut](https://www.icloud.com/shortcuts/29c58dc0d34947a8b6f83f56a4ca6fdc)
+
+![Example shortcut](shortcuts.webp)
